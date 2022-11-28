@@ -41,6 +41,7 @@ canvas,
 svg {
   display: block;
   max-width: 100%;
+  width: 90%;
 }
 /*
   7. Remove built-in form typography styles
@@ -145,4 +146,11 @@ p,
   justify-content: center;
   align-items: center;
   margin-block: 3rem;
+}
+
+iframe {
+  width: 90%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
 }
